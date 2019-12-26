@@ -1,0 +1,4 @@
+select d.deptno,d.dname,e.empno,e.ename from dept d,emp e;
+select d.deptno,d.dname,e.empno,e.ename from dept d, emp e left outer join dept d on d.dept no=e.deptno;
+create sequence regno_seq start with 110 increment by 2 maxvalue 200;
+insert into student values(regno_seq.nextval,'deloitte',middle','last',last@gmail.com');
